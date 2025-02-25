@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body  {
+    background-color: rgb(255, 255, 255);
+    -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+   -khtml-user-select: none; 
+     -moz-user-select: none; 
+      -ms-user-select: none; 
+          user-select: none;
+}
+
+
+.nav-item {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 500;
+    padding: 30px 5px; 
+    margin-left: 70px; 
+    display: inline-block;
+}
+
+.line {
+    width: 90%;
+    height: 2px;
+    background-color: #000000;
+    margin: -20px auto; 
+    display: block; 
+}
+
+.header_line {
+    display: flex; 
+}
+
+.header-logo {
+    padding: 10px;
+    margin-left: 70px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.balenciaga {
+    margin-left: 100px; 
+    margin-top: 100px;
+    border-radius: 4px;
+    width: 400px;
+    height: 520px;
+}
+
+.rick_owens {
+    margin-top: 180px;
+    margin-left: 550px; 
+    border-radius: 4px;
+    width: 400px;
+    height: 520px;  
+}
+
+.maison_margiela {
+    margin-top: 180px;
+    margin-left: 1000px; 
+    border-radius: 4px;
+    width: 400px;
+    height: 520px;
+}
+
+
+.balenciaga_text {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.rick_owens_text {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 500; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -700px;
+}
+
+.maison_margiela_text {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 500; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -700px;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-left: 70px; 
+    display: inline-block;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+  
+.wrapper img {
+    transition: scale 400ms;
+}
+  
+.wrapper:hover img {
+    scale: 110%;
+}
