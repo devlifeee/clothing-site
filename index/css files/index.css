@@ -134,3 +134,14 @@ h4 {
 .wrapper:hover img {
     scale: 110%;
 }
+
+.container {
+    opacity: 0; 
+    transition: opacity 2s ease-in-out; 
+    text-align: center;
+    margin-top: 0px; 
+}
+
+.container.show {
+    opacity: 1; /* Текст становится видимым */
+}
