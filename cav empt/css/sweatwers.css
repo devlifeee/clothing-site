@@ -43,108 +43,93 @@ h1 {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 28px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 30px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
 
-.balenciaga {
+.sweater_1 {
     margin-left: 100px; 
     margin-top: 100px;
     border-radius: 4px;
-    width: 400px;
-    height: 520px;
+    width: 300px;
+    height: 300px;
 }
 
-.rick_owens {
-    margin-top: 180px;
-    margin-left: 550px; 
-    border-radius: 4px;
-    width: 400px;
-    height: 520px;  
-}
-
-.maison_margiela {
-    margin-top: 180px;
-    margin-left: 1000px; 
-    border-radius: 4px;
-    width: 400px;
-    height: 520px;
-}
-
-
-.balenciaga_text {
+.price_1 {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 400; 
+    margin-top: 10px;
+    margin-left: -1160px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
 
-.rick_owens_text {
+.sweater_2 {
+    margin-left: 440px; 
+    margin-top: -342px;
+    border-radius: 4px;
+    width: 300px;
+    height: 300px;
+}
+
+.price_2 {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 28px;
-    font-weight: 500; 
+    font-weight: 400; 
+    margin-top: 10px;
+    margin-left: -460px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -700px;
 }
 
-.maison_margiela_text {
+.sweater_3 {
+    margin-left: 780px; 
+    margin-top: -342px;
+    border-radius: 4px;
+    width: 300px;
+    height: 300px;
+}
+
+.price_3 {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 28px;
-    font-weight: 500; 
+    font-weight: 400; 
+    margin-top: 10px;
+    margin-right: -210px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -700px;
 }
 
-.comme_des_garsons {
-    margin-left: 100px; 
-    margin-top: 900px;
+.sweater_4 {
+    margin-left: 1120px; 
+    margin-top: -342px;
     border-radius: 4px;
-    width: 400px;
-    height: 520px; 
+    width: 300px;
+    height: 300px;
 }
 
-.cav_empt {
-    margin-top: 180px;
-    margin-left: 550px; 
-    border-radius: 4px;
-    width: 400px;
-    height: 520px;  
-}
-
-.maison_mihara {
-    margin-top: 180px;
-    margin-left: 1000px; 
-    border-radius: 4px;
-    width: 400px;
-    height: 520px;
-}
-
-h4 {
+.price_4 {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 28px;
-    font-weight: 500;
-    margin-top: 500px;
-   
-    display: inline-block;
+    font-weight: 400; 
+    margin-top: 10px;
+    margin-right: -900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,43 +145,4 @@ h4 {
   
 .wrapper:hover img {
     scale: 110%;
-}
-
-.container {
-    opacity: 0; 
-    transition: opacity 1s ease-in-out; 
-    text-align: center;
-    margin-top: 0px; 
-}
-
-.container.show {
-    opacity: 1; /* Текст становится видимым */
-}
-
-.container_2 {
-    opacity: 0; 
-    transition: opacity 1.5s ease-in-out; 
-    text-align: center;
-    margin-top: 0px; 
-}
-
-.container_2.show {
-    opacity: 1; /* Текст становится видимым */
-}
-
-.container_3 {
-    margin-top: 80x;
-    background-color: #c9a7a7;
-    width: 100%;
-    height: 50px;
-}
-
-h3 {
-    font-family: 'Raleway', sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
 }
