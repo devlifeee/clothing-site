@@ -23,4 +23,17 @@ window.addEventListener('scroll', () => {
     }
 });
 
+const container_4 = document.querySelector('.container_4');
+
+window.addEventListener('scroll', () => {
+    const windowHeight = window.innerHeight;
+    const container_4Top = container_4.getBoundingClientRect().top;
+    const container_4Visible = container_4Top < windowHeigh;
+
+    if (container_4Visible) {
+        container_4.classList.add('show');
+    }
+});
+
+
 

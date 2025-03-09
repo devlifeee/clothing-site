@@ -206,7 +206,7 @@ h2 {
     font-family: 'Raleway', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     margin-left: -600px;
@@ -215,12 +215,33 @@ h2 {
 
 .text {
     font-family: 'Raleway', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(81, 80, 80);
     font-size: 50px;
-    font-weight: 200;
+    font-weight: 300;
     display: flex;
     justify-content: center;
     margin-top: 200px
+}
+
+.text_2 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(81, 80, 80);
+    font-size: 50px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px
+}
+
+.container_4 {
+    opacity: 0; 
+    transition: opacity 1.5s ease-in-out; 
+    
+    
+}
+
+.container_4.show {
+    opacity: 1; /* Текст становится видимым */
 }
 
 .foto {

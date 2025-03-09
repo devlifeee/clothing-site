@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 html, body  {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(184, 178, 178);
     -webkit-touch-callout: none; 
   -webkit-user-select: none; 
    -khtml-user-select: none; 
@@ -11,11 +11,12 @@ html, body  {
 }
 
 
+
 .nav-item {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     padding: 30px 5px; 
     margin-left: 70px; 
@@ -35,7 +36,7 @@ html, body  {
 }
 
 .header-logo {
-    padding: 10px;
+    padding: 5px;
     margin-left: 70px;
 }
 
