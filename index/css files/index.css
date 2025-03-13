@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 
 html, body  {
     background-color: rgb(184, 178, 178);
     -webkit-touch-callout: none; 
-  -webkit-user-select: none; 
-   -khtml-user-select: none; 
-     -moz-user-select: none; 
-      -ms-user-select: none; 
-          user-select: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;        
 }
 
-
 .nav-item {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -40,8 +42,9 @@ html, body  {
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
     color: rgb(0, 0, 0);
     font-size: 28px;
     font-weight: 400;
@@ -49,6 +52,19 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+}
+
+h2 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-left: -600px;
+    margin-top: 200px
 }
 
 .balenciaga {
@@ -202,16 +218,7 @@ h3 {
     margin-top: 100px
 }
 
-h2 {
-    font-family: 'Raleway', sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    margin-left: -600px;
-    margin-top: 200px
-}
+
 
 .text {
     font-family: 'Raleway', sans-serif;

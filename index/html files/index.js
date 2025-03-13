@@ -35,5 +35,16 @@ window.addEventListener('scroll', () => {
     }
 });
 
+const container_foto = document.querySelector('.container_foto');
+let isVisible = false;
 
+window.addEventListener('scroll', () => {
+  const windowHeight = window.innerHeight;
+  const container_fotoTop = container_foto.getBoundingClientRect().top;
+
+  if (container_fotoTop < windowHeight && !isVisible) {
+    container_foto.classList.add('show');
+    isVisible = true;
+  }
+});
 
