@@ -209,9 +209,11 @@ h4 {
 }
 
 h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
     display: flex;
     justify-content: center;
